@@ -10,7 +10,7 @@ function Navbar() {
   return (
     //   <!-- This example requires Tailwind CSS v2.0+ -->
 
-    <nav className="bg-gray-800 shadow-2xl  mt-0 fixed w-full z-10 top-0">
+    <nav className=" shadow-2xl bg-white dark:bg-navbar  mt-0 fixed w-full z-10 top-0">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16 lg:ml-60 lg:mr-60 md:ml-20 md:mr-20">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -18,9 +18,9 @@ function Navbar() {
             <button
               type="button"
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded="false"
+              className="dark:text-white"
             >
               <span className="sr-only">Open main menu</span>
               {/* <!--
@@ -91,7 +91,7 @@ function Navbar() {
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0 flex items-center">
               <img
-                className="lg:block h-10 w-auto  rounded-full border-2 border-y-fuchsia-400"
+                className="lg:block h-10 w-auto  rounded-full border-2  border-x-purple-700 border-y-sky-700"
                 src={AvatarMaker}
                 alt="Anurag mourya"
               />
@@ -102,21 +102,21 @@ function Navbar() {
 
                 <a
                   href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-600 dark:text-white hover:bg-gray-100 dark:hover:bg-hovercolor hover:text-black px-3 py-2 rounded-md text-base font-semibold"
                 >
                   Projects
                 </a>
 
                 <a
                   href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-600 dark:text-white dark:hover:bg-hovercolor hover:bg-gray-100 hover:text-black px-3 py-2 rounded-md text-base font-semibold"
                 >
                   Skills
                 </a>
 
                 <a
                   href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-600 dark:text-white dark:hover:bg-hovercolor  hover:bg-gray-100 hover:text-black px-3 py-2 rounded-md text-base font-semibold"
                 >
                   Contacts
                 </a>
@@ -126,7 +126,7 @@ function Navbar() {
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <button
               type="button"
-              className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+              className=" p-1 rounded-full text-gray-600 dark:text-white dark:hover:bg-hovercolor  hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
             >
               <span className="sr-only">View notifications</span>
               {/* <!-- Heroicon name: outline/bell --> */}
@@ -213,20 +213,20 @@ function Navbar() {
 
               <a
                 href="#"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium "
+                className="text-gray-600 dark:text-white dark:hover:bg-hovercolor  hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md text-base semibold "
               >
                 Projects
               </a>
 
               <a
                 href="#"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-600 dark:text-white dark:hover:bg-hovercolor  hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md text-base semibold "
               >
                 Skills
               </a>
               <a
                 href="#"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-600 dark:text-white dark:hover:bg-hovercolor  hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md text-base semibold "
               >
                 Contacts
               </a>
