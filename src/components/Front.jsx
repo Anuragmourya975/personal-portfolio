@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+
 import Navbar from "./Navbar";
 import profile from "../images/profile.jpg";
 import AvatarMaker from "../images/AvatarMaker.png";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import Footer from "./Footer";
+import { Image, useImage } from "react-img-placeholder";
 import "../App.css";
+import MainFooter from "./MainFooter";
+import User1 from "../images/user (1).png";
 
 function Front() {
   return (
@@ -18,11 +22,15 @@ function Front() {
 
       <div className="justify-center items-center flex flex-col ">
         <div className="flex items-center  justify-center text-center px-5 sm:px-20">
-          <img
+          <Image
             src={AvatarMaker}
             alt="Anurag mourya"
-            className="h-32 w-auto rounded-full border-4 dark:border-x-purple-500 dark:hover:border-y-purple-500 dark:hover:border-x-sky-500 dark:border-y-sky-500 border-x-purple-900 border-y-sky-900 transition duration-500 hover:scale-110 hover:border-x-sky-900 hover:border-y-purple-900 "
+            className=" block h-32 shadow-xl w-auto rounded-full border-4 dark:border-x-purple-500 dark:hover:border-y-purple-500 dark:hover:border-x-sky-500 dark:border-y-sky-500 border-x-purple-900 border-y-sky-900 transition duration-500 hover:scale-110 hover:border-x-sky-900 hover:border-y-purple-900 "
+            height="128px"
+            width="128px"
+            placeholderSrc={User1}
           />
+          {/* <img /> */}
         </div>
         <div className="block items-center justify-center text-center px-3 sm:px-20 ">
           <h1 className="text-center mt-3 text-4xl sm:text-6xl font-sans font-bold dark:text-white  ">

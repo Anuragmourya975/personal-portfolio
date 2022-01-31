@@ -3,6 +3,7 @@ import AvatarMaker from "../images/AvatarMaker.png";
 import { AiFillGithub } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
 import github from "../images/github (1).png";
+import github3 from "../images/github (3).png";
 import gmail from "../images/gmail.png";
 import linkedin from "../images/linkedin.png";
 import twitter from "../images/twitter (1).png";
@@ -16,7 +17,7 @@ function Footer() {
             <a href="">
               <img
                 className="lg:block h-10 w-auto"
-                src={github}
+                src={github3}
                 alt="Anurag mourya"
               />
             </a>
