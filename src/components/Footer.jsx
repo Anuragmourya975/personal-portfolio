@@ -7,6 +7,8 @@ import github3 from "../images/github (3).png";
 import gmail from "../images/gmail.png";
 import linkedin from "../images/linkedin.png";
 import twitter from "../images/twitter (1).png";
+import { Image, useImage } from "react-img-placeholder";
+
 function Footer() {
   return (
     //   <!-- This example requires Tailwind CSS v2.0+ -->
@@ -14,32 +16,41 @@ function Footer() {
       <div className="relative flex items-center justify-between h-16 ">
         <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
           <div className="flex-shrink-0 flex items-center space-x-8">
-            <a href="">
-              <img
+            <a href="https://github.com/Anuragmourya975" target="_blank">
+              <Image
                 className="lg:block h-10 w-auto"
                 src={github3}
                 alt="Anurag mourya"
+                height="40px"
+                width="40px"
               />
+              {/* <img /> */}
             </a>
-            <a href="">
-              <img
+            <a href="mailto:anuragmourya975@gmail.com" target="_blank">
+              <Image
                 className="lg:block h-10 w-auto"
                 src={gmail}
                 alt="Anurag mourya"
+                height="40px"
+                width="40px"
               />
             </a>
-            <a href="">
-              <img
+            <a href="https://www.linkedin.com/in/anurag-mourya-456b391a5/">
+              <Image
                 className="lg:block h-10 w-auto"
                 src={linkedin}
                 alt="Anurag mourya"
+                height="40px"
+                width="40px"
               />
             </a>
-            <a href="">
-              <img
-                className="lg:block h-10 w-auto "
+            <a href="https://twitter.com/AnuragM15401198">
+              <Image
+                className="lg:block h-10 w-auto"
                 src={twitter}
                 alt="Anurag mourya"
+                height="40px"
+                width="40px"
               />
             </a>
           </div>

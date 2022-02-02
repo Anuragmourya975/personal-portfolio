@@ -23,7 +23,7 @@ function Projects() {
                     className="no-underline hover:underline text-black dark:text-bgwhite"
                     href="#"
                   >
-                    Project Title
+                    Corona Tracking App
                   </a>
                 </h1>
 
@@ -38,35 +38,51 @@ function Projects() {
                   src="https://picsum.photos/600/400/?random"
                 /> */}
 
-                <h2 className="flex text-xl items-center justify-center px-6 py-10 dark:text-bgwhite">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
-                  corrupti fuga quo est odio saepe, eum omnis maiores alias iste
-                  culpa incidunt nemo necessitatibus reprehenderit quia
-                  recusandae qui asperiores quibusdam?
+                <h2 className="flex text-xl items-center justify-center px-6 pt-10 pb-1 dark:text-bgwhite">
+                  It is a web app that is used to check total positive cases of
+                  corona and statistics, deaths, recovered people, and other
+                  relevant data on a global level.
                 </h2>
+                <div class="m-3">
+                  <ul class="flex flex-wrap text-xs font-medium -m-1">
+                    <li class="m-1 px-2">
+                      <a
+                        class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                        href="#"
+                      >
+                        React
+                      </a>
+                    </li>
+                    <li class="m-1 px-2">
+                      <a
+                        class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                        href="#"
+                      >
+                        API Calls Using Axios
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </a>
 
               <footer className="flex items-center justify-between leading-none p-2 rounded-lg md:p-4 border-t-4 dark:border-x-sky-500 dark:hover:border-y-purple-500 border-y-purple-900 border-x-sky-900 transition duration-500 hover:border-x-sky-900 hover:border-y-purple-900">
-                <a
-                  className="flex items-center no-underline hover:underline text-black"
-                  href="#"
-                >
-                  <img
-                    alt="Placeholder"
-                    className="block rounded-full h-10 w-10"
-                    src={profile}
-                  />
-                  {/* <p className="ml-2 text-sm">Author Name</p> */}
-                </a>
+                <img
+                  alt="Placeholder"
+                  className="block rounded-full h-10 w-10"
+                  src={profile}
+                />
+                {/* <p className="ml-2 text-sm">Author Name</p> */}{" "}
                 <a
                   className="no-underline text-grey-darker hover:text-red-dark"
-                  href="#"
+                  href="https://github.com/Anuragmourya975/corono-tracker"
+                  target="_blank"
                 >
                   <BsGithub className="h-10 w-10 dark:text-bgwhite" />
                 </a>
                 <a
                   className="no-underline text-grey-darker hover:text-red-dark"
-                  href="#"
+                  href="https://tracking-corona975.netlify.app/"
+                  target="_blank"
                 >
                   <BsLink className="h-10 w-10 dark:text-bgwhite" />
                 </a>
@@ -87,7 +103,7 @@ function Projects() {
                     className="no-underline hover:underline text-black dark:text-bgwhite"
                     href="#"
                   >
-                    Project Title
+                    Chat App
                   </a>
                 </h1>
 
@@ -102,13 +118,40 @@ function Projects() {
                   src="https://picsum.photos/600/400/?random"
                 /> */}
 
-                <h2 className="flex text-xl items-center justify-center px-6 py-10 dark:text-bgwhite">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
-                  corrupti fuga quo est odio saepe, eum omnis maiores alias iste
-                  culpa incidunt nemo necessitatibus reprehenderit quia
-                  recusandae qui asperiores quibusdam?
+                <h2 className="flex text-xl items-center justify-center px-6 pt-10 pb-1 dark:text-bgwhite">
+                  This application is based on a chat engine(Chat API provides
+                  many features to implement our own chat app) where people can
+                  interact with each other.
                 </h2>
               </a>
+              <div class="m-3">
+                <ul class="flex flex-wrap text-xs font-medium -m-1">
+                  <li class="m-1 px-2">
+                    <a
+                      class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                      href="#"
+                    >
+                      React
+                    </a>
+                  </li>
+                  <li class="m-1 px-2">
+                    <a
+                      class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                      href="#"
+                    >
+                      API Calls Using Axios
+                    </a>
+                  </li>
+                  <li class="m-1 px-2">
+                    <a
+                      class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                      href="#"
+                    >
+                      Chat Engine
+                    </a>
+                  </li>
+                </ul>
+              </div>
 
               <footer className="flex items-center justify-between leading-none p-2 rounded-lg md:p-4 border-t-4 dark:border-x-sky-500 dark:hover:border-y-purple-500 border-y-purple-900 border-x-sky-900 transition duration-500 hover:border-x-sky-900 hover:border-y-purple-900">
                 <a
@@ -124,13 +167,13 @@ function Projects() {
                 </a>
                 <a
                   className="no-underline text-grey-darker hover:text-red-dark"
-                  href="#"
+                  href="https://github.com/Anuragmourya975/chat-application"
                 >
                   <BsGithub className="h-10 w-10 dark:text-bgwhite" />
                 </a>
                 <a
                   className="no-underline text-grey-darker hover:text-red-dark"
-                  href="#"
+                  href="https://chhatapp.netlify.app/"
                 >
                   <BsLink className="h-10 w-10 dark:text-bgwhite" />
                 </a>
@@ -150,7 +193,7 @@ function Projects() {
                     className="no-underline hover:underline text-black dark:text-bgwhite"
                     href="#"
                   >
-                    Project Title
+                    Portfolio Website
                   </a>
                 </h1>
 
@@ -165,13 +208,32 @@ function Projects() {
                   src="https://picsum.photos/600/400/?random"
                 /> */}
 
-                <h2 className="flex text-xl items-center justify-center px-6 py-10 dark:text-bgwhite">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
-                  corrupti fuga quo est odio saepe, eum omnis maiores alias iste
-                  culpa incidunt nemo necessitatibus reprehenderit quia
-                  recusandae qui asperiores quibusdam?
+                <h2 className="flex text-xl items-center justify-center px-6 pt-10 pb-1 dark:text-bgwhite">
+                  I have designed this website as a place for me to record all
+                  my projects and skills acquired so far. These are just a few
+                  of the things that I have worked on recently.
                 </h2>
               </a>
+              <div class="m-3">
+                <ul class="flex flex-wrap text-xs font-medium -m-1">
+                  <li class="m-1 px-2">
+                    <a
+                      class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                      href="#"
+                    >
+                      React
+                    </a>
+                  </li>
+                  <li class="m-1 px-2">
+                    <a
+                      class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                      href="#"
+                    >
+                      Tailwind CSS
+                    </a>
+                  </li>
+                </ul>
+              </div>
 
               <footer className="flex items-center justify-between leading-none p-2 rounded-lg md:p-4 border-t-4 dark:border-x-sky-500 dark:hover:border-y-purple-500 border-y-purple-900 border-x-sky-900 transition duration-500 hover:border-x-sky-900 hover:border-y-purple-900">
                 <a
@@ -187,13 +249,13 @@ function Projects() {
                 </a>
                 <a
                   className="no-underline text-grey-darker hover:text-red-dark"
-                  href="#"
+                  href="https://github.com/Anuragmourya975/personal-portfolio"
                 >
                   <BsGithub className="h-10 w-10 dark:text-bgwhite" />
                 </a>
                 <a
                   className="no-underline text-grey-darker hover:text-red-dark"
-                  href="#"
+                  href="/"
                 >
                   <BsLink className="h-10 w-10 dark:text-bgwhite" />
                 </a>

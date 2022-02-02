@@ -127,20 +127,21 @@ function Navbar() {
                     Skills
                   </a>
                 </Link>
-                <Link to="/contacts" className="flex">
+                {/* <Link to="/contacts" className="flex">
                   <a
                     href="#"
                     className="text-gray-600 dark:text-gray-300 dark:hover:bg-gray-800 hover:bg-gray-300 hover:text-gray-700 px-3 py-2 rounded-md text-base font-semibold"
                   >
                     Contacts
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <button
-              type="button"
+            <a
+              href="https://t.me/Anurag_mourya"
+              target="_blank"
               id="dropdownSmallButton"
               data-dropdown-toggle="dropdownSmall"
               className="  p-1 rounded-full text-gray-600 dark:text-gray-300 dark:hover:bg-gray-800  hover:bg-gray-300 hover:text-gray-700 focus:outline-none   focus:ring-offset-gray-800"
@@ -163,7 +164,7 @@ function Navbar() {
                 />
               </svg> */}
               <FaTelegramPlane className="h-6 w-6" />
-            </button>
+            </a>
 
             {/* <!-- Profile dropdown --> */}
             <div className="ml-3 relative">
@@ -228,26 +229,28 @@ function Navbar() {
               >
                 Dashboard
               </a> */}
-
-              <a
-                href="#"
-                className="text-gray-600 dark:text-white dark:hover:bg-hovercolor  hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md text-base semibold "
-              >
-                Projects
-              </a>
-
-              <a
-                href="#"
-                className="text-gray-600 dark:text-white dark:hover:bg-hovercolor  hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md text-base semibold "
-              >
-                Skills
-              </a>
-              <a
+              <Link to="/projects">
+                <a
+                  href="#"
+                  className="text-gray-600 dark:text-white dark:hover:bg-hovercolor  hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md text-base semibold "
+                >
+                  Projects
+                </a>
+              </Link>
+              <Link to="/skills">
+                <a
+                  href="#"
+                  className="text-gray-600 dark:text-white dark:hover:bg-hovercolor  hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md text-base semibold "
+                >
+                  Skills
+                </a>
+              </Link>
+              {/* <a
                 href="#"
                 className="text-gray-600 dark:text-white dark:hover:bg-hovercolor  hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md text-base semibold "
               >
                 Contacts
-              </a>
+              </a> */}
             </div>
           </div>
         )}
