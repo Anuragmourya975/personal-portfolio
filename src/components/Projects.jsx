@@ -27,9 +27,7 @@ function Projects() {
                   </a>
                 </h1>
 
-                <p className="text-grey-darker text-sm dark:text-bgwhite">
-                  11/1/19
-                </p>
+                <p className="text-grey-darker text-sm dark:text-bgwhite"></p>
               </header>
               <a href="#">
                 {/* <img
@@ -107,9 +105,7 @@ function Projects() {
                   </a>
                 </h1>
 
-                <p className="text-grey-darker text-sm dark:text-bgwhite">
-                  11/1/19
-                </p>
+                <p className="text-grey-darker text-sm dark:text-bgwhite"></p>
               </header>
               <a href="#">
                 {/* <img
@@ -197,9 +193,7 @@ function Projects() {
                   </a>
                 </h1>
 
-                <p className="text-grey-darker text-sm dark:text-bgwhite">
-                  11/1/19
-                </p>
+                <p className="text-grey-darker text-sm dark:text-bgwhite"></p>
               </header>
               <a href="#">
                 {/* <img

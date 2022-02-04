@@ -10,7 +10,7 @@ import "../App.css";
 import MainFooter from "./MainFooter";
 import User1 from "../images/user (1).png";
 import { Link } from "react-router-dom";
-import resume1 from "../assets/resume1.pdf";
+import resume2 from "../assets/resume2.pdf";
 
 function Front() {
   // const downloadFile = () => {
@@ -56,7 +56,7 @@ function Front() {
             I'm always ready to improve my programming skills and adopt new
             technologies.
           </p>
-          <a href={resume1} target="_blank">
+          <a href={resume2} target="_blank">
             <button className="mt-5 flex flex-row m-auto items-center justify-center sm:mt-6 px-3 py-3 border-2 border-x-purple-900 dark:border-x-purple-500 border-y-sky-900 dark:border-y-sky-500 text-base font-semibold transition duration-500 hover:scale-105 hover:border-x-sky-900 dark:hover:border-x-sky-500  dark:hover:border-y-purple-500 hover:border-y-purple-900 dark:text-bgwhite text-lightdark ">
               <AiOutlineCloudDownload className="text-2xl font-medium" />
               &nbsp; Download Resume
