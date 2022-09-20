@@ -39,10 +39,10 @@ function Skills() {
                 mode: "push",
               },
               onHover: {
-                enable: false,
-                mode: "repulse",
+                enable: true,
+                mode: "grab",
               },
-              resize: false,
+              resize: true,
             },
             modes: {
               bubble: {
@@ -72,7 +72,7 @@ function Skills() {
               width: 1,
             },
             collisions: {
-              enable: true,
+              enable: false,
             },
             move: {
               direction: "none",
@@ -85,7 +85,7 @@ function Skills() {
             number: {
               density: {
                 enable: true,
-                area: 1500,
+                area: 1000,
               },
               value: 80,
             },
@@ -144,6 +144,16 @@ function Skills() {
                 },
                 {
                   src: "https://cdn-icons-png.flaticon.com/512/1051/1051326.png",
+                  width: 100,
+                  height: 100,
+                },
+                {
+                  src: "https://www.freeiconspng.com/thumbs/c-logo-icon/c--logo-icon-0.png",
+                  width: 100,
+                  height: 100,
+                },
+                {
+                  src: "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png",
                   width: 100,
                   height: 100,
                 },

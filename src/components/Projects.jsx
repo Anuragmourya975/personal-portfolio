@@ -19,24 +19,27 @@ function Projects() {
             <article className="overflow-hidden rounded-lg shadow-2xl dark:border-2 dark:border-x-sky-400 dark:border-y-purple-400  ">
               <header className="flex items-center justify-between leading-tight p-2 md:p-4 rounded-lg border-b-4 dark:border-x-sky-500 dark:hover:border-y-purple-500 border-y-purple-900 border-x-sky-900 transition duration-500 hover:border-x-sky-900 hover:border-y-purple-900">
                 <h1 className="text-lg">
-                  <a
+                  <button
                     className="no-underline hover:underline text-black dark:text-bgwhite"
-                    href="#"
+                    style={{ cursor: "default" }}
                   >
                     Corona Tracking App
-                  </a>
+                  </button>
                 </h1>
 
                 <p className="text-grey-darker text-sm dark:text-bgwhite"></p>
               </header>
-              <a href="#">
+              <a>
                 {/* <img
                   alt="Placeholder"
                   className="block h-auto w-full"
                   src="https://picsum.photos/600/400/?random"
                 /> */}
 
-                <h2 className="flex text-xl items-center justify-center px-6 pt-10 pb-1 dark:text-bgwhite">
+                <h2
+                  className="flex text-xl items-center justify-center px-6 pt-10 pb-1 dark:text-bgwhite"
+                  style={{ cursor: "default" }}
+                >
                   It is a web app that is used to check total positive cases of
                   corona and statistics, deaths, recovered people, and other
                   relevant data on a global level.
@@ -44,20 +47,14 @@ function Projects() {
                 <div class="m-3">
                   <ul class="flex flex-wrap text-xs font-medium -m-1">
                     <li class="m-1 px-2">
-                      <a
-                        class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                        href="#"
-                      >
+                      <button class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">
                         React
-                      </a>
+                      </button>
                     </li>
                     <li class="m-1 px-2">
-                      <a
-                        class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                        href="#"
-                      >
+                      <button class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">
                         API Calls Using Axios
-                      </a>
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -74,6 +71,7 @@ function Projects() {
                   className="no-underline text-grey-darker hover:text-red-dark"
                   href="https://github.com/Anuragmourya975/corono-tracker"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <BsGithub className="h-10 w-10 dark:text-bgwhite" />
                 </a>
@@ -81,6 +79,7 @@ function Projects() {
                   className="no-underline text-grey-darker hover:text-red-dark"
                   href="https://tracking-corona975.netlify.app/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <BsLink className="h-10 w-10 dark:text-bgwhite" />
                 </a>
@@ -97,17 +96,17 @@ function Projects() {
             <article className="overflow-hidden rounded-lg shadow-2xl dark:border-2 dark:border-x-sky-400 dark:border-y-purple-400 ">
               <header className="flex items-center justify-between leading-tight p-2 md:p-4 rounded-lg border-b-4 dark:border-x-sky-500 dark:hover:border-y-purple-500 border-y-purple-900 border-x-sky-900 transition duration-500 hover:border-x-sky-900 hover:border-y-purple-900">
                 <h1 className="text-lg">
-                  <a
+                  <button
                     className="no-underline hover:underline text-black dark:text-bgwhite"
-                    href="#"
+                    style={{ cursor: "default" }}
                   >
                     Chat App
-                  </a>
+                  </button>
                 </h1>
 
                 <p className="text-grey-darker text-sm dark:text-bgwhite"></p>
               </header>
-              <a href="#">
+              <a href="#" style={{ cursor: "default" }}>
                 {/* <img
                   alt="Placeholder"
                   className="block h-auto w-full"
@@ -123,36 +122,27 @@ function Projects() {
               <div class="m-3">
                 <ul class="flex flex-wrap text-xs font-medium -m-1">
                   <li class="m-1 px-2">
-                    <a
-                      class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                      href="#"
-                    >
+                    <button class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">
                       React
-                    </a>
+                    </button>
                   </li>
                   <li class="m-1 px-2">
-                    <a
-                      class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                      href="#"
-                    >
+                    <button class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">
                       API Calls Using Axios
-                    </a>
+                    </button>
                   </li>
                   <li class="m-1 px-2">
-                    <a
-                      class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                      href="#"
-                    >
+                    <button class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">
                       Chat Engine
-                    </a>
+                    </button>
                   </li>
                 </ul>
               </div>
 
               <footer className="flex items-center justify-between leading-none p-2 rounded-lg md:p-4 border-t-4 dark:border-x-sky-500 dark:hover:border-y-purple-500 border-y-purple-900 border-x-sky-900 transition duration-500 hover:border-x-sky-900 hover:border-y-purple-900">
-                <a
+                <button
+                  style={{ cursor: "default" }}
                   className="flex items-center no-underline hover:underline text-black"
-                  href="#"
                 >
                   <img
                     alt="Placeholder"
@@ -160,16 +150,20 @@ function Projects() {
                     src={profile}
                   />
                   {/* <p className="ml-2 text-sm">Author Name</p> */}
-                </a>
+                </button>
                 <a
                   className="no-underline text-grey-darker hover:text-red-dark"
                   href="https://github.com/Anuragmourya975/chat-application"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <BsGithub className="h-10 w-10 dark:text-bgwhite" />
                 </a>
                 <a
                   className="no-underline text-grey-darker hover:text-red-dark"
                   href="https://chhatapp.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <BsLink className="h-10 w-10 dark:text-bgwhite" />
                 </a>
@@ -185,17 +179,18 @@ function Projects() {
             <article className="overflow-hidden rounded-lg shadow-2xl dark:border-2 dark:border-x-sky-400 dark:border-y-purple-400 ">
               <header className="flex items-center justify-between leading-tight p-2 md:p-4 rounded-lg border-b-4 dark:border-x-sky-500 dark:hover:border-y-purple-500 border-y-purple-900 border-x-sky-900 transition duration-500 hover:border-x-sky-900 hover:border-y-purple-900">
                 <h1 className="text-lg">
-                  <a
+                  <button
+                    style={{ cursor: "default" }}
                     className="no-underline hover:underline text-black dark:text-bgwhite"
-                    href="#"
+                    // href="#"
                   >
                     Portfolio Website
-                  </a>
+                  </button>
                 </h1>
 
                 <p className="text-grey-darker text-sm dark:text-bgwhite"></p>
               </header>
-              <a href="#">
+              <a href="#" style={{ cursor: "default" }}>
                 {/* <img
                   alt="Placeholder"
                   className="block h-auto w-full"
@@ -211,28 +206,28 @@ function Projects() {
               <div class="m-3">
                 <ul class="flex flex-wrap text-xs font-medium -m-1">
                   <li class="m-1 px-2">
-                    <a
+                    <button
+                      style={{ cursor: "default" }}
                       class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                      href="#"
                     >
                       React
-                    </a>
+                    </button>
                   </li>
                   <li class="m-1 px-2">
-                    <a
+                    <button
+                      style={{ cursor: "default" }}
                       class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                      href="#"
                     >
                       Tailwind CSS
-                    </a>
+                    </button>
                   </li>
                 </ul>
               </div>
 
               <footer className="flex items-center justify-between leading-none p-2 rounded-lg md:p-4 border-t-4 dark:border-x-sky-500 dark:hover:border-y-purple-500 border-y-purple-900 border-x-sky-900 transition duration-500 hover:border-x-sky-900 hover:border-y-purple-900">
-                <a
+                <button
+                  style={{ cursor: "default" }}
                   className="flex items-center no-underline hover:underline text-black"
-                  href="#"
                 >
                   <img
                     alt="Placeholder"
@@ -240,10 +235,12 @@ function Projects() {
                     src={profile}
                   />
                   {/* <p className="ml-2 text-sm">Author Name</p> */}
-                </a>
+                </button>
                 <a
                   className="no-underline text-grey-darker hover:text-red-dark"
                   href="https://github.com/Anuragmourya975/personal-portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <BsGithub className="h-10 w-10 dark:text-bgwhite" />
                 </a>
